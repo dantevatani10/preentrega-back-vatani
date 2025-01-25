@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "title": "iPhone 14 Pro Max",
+    "description": "El iPhone 14 Pro Max con chip A16 Bionic, cámara de 48MP y pantalla Super Retina XDR de 6.7 pulgadas",
+    "code": "IPH14PM",
+    "price": 1299.99,
+    "status": true,
+    "stock": 25,
+    "category": "smartphones",
+    "thumbnails": [
+      "/img/iphone14promax-1.jpg",
+      "/img/iphone14promax-2.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Samsung Galaxy S23 Ultra",
+    "description": "Samsung Galaxy S23 Ultra con procesador Snapdragon 8 Gen 2, cámara de 200MP y S Pen incluido",
+    "code": "SGGS23U",
+    "price": 1199.99,
+    "status": true,
+    "stock": 30,
+    "category": "smartphones",
+    "thumbnails": [
+      "/img/s23ultra-1.jpg",
+      "/img/s23ultra-2.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Xiaomi 13 Pro",
+    "description": "Xiaomi 13 Pro con Snapdragon 8 Gen 2, cámara Leica de 50MP y carga rápida de 120W",
+    "code": "XM13P",
+    "price": 899.99,
+    "status": true,
+    "stock": 20,
+    "category": "smartphones",
+    "thumbnails": [
+      "/img/xiaomi13pro-1.jpg",
+      "/img/xiaomi13pro-2.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Google Pixel 7 Pro",
+    "description": "Google Pixel 7 Pro con chip Tensor G2, cámara de 50MP y pantalla LTPO OLED de 6.7 pulgadas",
+    "code": "GP7P",
+    "price": 899.99,
+    "status": true,
+    "stock": 15,
+    "category": "smartphones",
+    "thumbnails": [
+      "/img/pixel7pro-1.jpg",
+      "/img/pixel7pro-2.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "OnePlus 11",
+    "description": "OnePlus 11 con Snapdragon 8 Gen 2, cámara Hasselblad de 50MP y carga SUPERVOOC de 100W",
+    "code": "OP11",
+    "price": 699.99,
+    "status": true,
+    "stock": 22,
+    "category": "smartphones",
+    "thumbnails": [
+      "/img/oneplus11-1.jpg",
+      "/img/oneplus11-2.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Motorola Edge 40 Pro",
+    "description": "Motorola Edge 40 Pro con Snapdragon 8 Gen 2, pantalla pOLED de 165Hz y carga TurboPower de 125W",
+    "code": "ME40P",
+    "price": 799.99,
+    "status": true,
+    "stock": 18,
+    "category": "smartphones",
+    "thumbnails": [
+      "/img/edge40pro-1.jpg",
+      "/img/edge40pro-2.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Nothing Phone (2)",
+    "description": "Nothing Phone (2) con interfaz Glyph, Snapdragon 8+ Gen 1 y cámara dual de 50MP",
+    "code": "NP2",
+    "price": 599.99,
+    "status": true,
+    "stock": 12,
+    "category": "smartphones",
+    "thumbnails": [
+      "/img/nothingphone2-1.jpg",
+      "/img/nothingphone2-2.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "ASUS ROG Phone 7",
+    "description": "ASUS ROG Phone 7 gaming con Snapdragon 8 Gen 2, pantalla AMOLED de 165Hz y batería de 6000mAh",
+    "code": "ARP7",
+    "price": 999.99,
+    "status": true,
+    "stock": 10,
+    "category": "smartphones",
+    "thumbnails": [
+      "/img/rogphone7-1.jpg",
+      "/img/rogphone7-2.jpg"
+    ]
+  }
+]
