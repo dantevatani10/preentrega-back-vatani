@@ -36,7 +36,7 @@ export class ProductManager {
     async updateProduct(id, updateData) {
         const products = await this.getProducts();
         const index = products.findIndex(product => product.id === id);
-        
+
         if (index === -1) return null;
 
         const updatedProduct = {
@@ -53,9 +53,9 @@ export class ProductManager {
     async deleteProduct(id) {
         const products = await this.getProducts();
         const filteredProducts = products.filter(product => product.id !== id);
-        
+
         if (filteredProducts.length === products.length) return false;
-        
+
         await this.#saveProducts(filteredProducts);
         return true;
     }
@@ -68,4 +68,4 @@ export class ProductManager {
     async #saveProducts(products) {
         await fs.writeFile(this.path, JSON.stringify(products, null, 2));
     }
-} 
+}

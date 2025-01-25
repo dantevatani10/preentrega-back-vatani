@@ -27,7 +27,7 @@ router.get('/:pid', async (req, res) => {
 router.post('/', async (req, res) => {
     try {
         const { title, description, code, price, stock, category, thumbnails } = req.body;
-        
+
         if (!title || !description || !code || !price || !stock || !category) {
             return res.status(400).json({ error: 'Todos los campos son obligatorios' });
         }
@@ -47,7 +47,7 @@ router.put('/:pid', async (req, res) => {
     try {
         const { id, ...updateData } = req.body;
         const updatedProduct = await productManager.updateProduct(Number(req.params.pid), updateData);
-        
+
         if (!updatedProduct) return res.status(404).json({ error: 'Producto no encontrado' });
         res.json(updatedProduct);
     } catch (error) {
@@ -65,4 +65,4 @@ router.delete('/:pid', async (req, res) => {
     }
 });
 
-export default router; 
+export default router;

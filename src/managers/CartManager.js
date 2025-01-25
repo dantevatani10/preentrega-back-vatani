@@ -61,4 +61,4 @@ export class CartManager {
     async #saveCarts(carts) {
         await fs.writeFile(this.path, JSON.stringify(carts, null, 2));
     }
-} 
+}

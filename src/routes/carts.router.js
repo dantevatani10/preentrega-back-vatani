@@ -30,7 +30,7 @@ router.post('/:cid/product/:pid', async (req, res) => {
             Number(req.params.cid),
             Number(req.params.pid)
         );
-        
+
         if (!cart) return res.status(404).json({ error: 'Carrito no encontrado' });
         res.json(cart);
     } catch (error) {
@@ -38,4 +38,4 @@ router.post('/:cid/product/:pid', async (req, res) => {
     }
 });
 
-export default router; 
+export default router;
